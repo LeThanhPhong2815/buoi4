@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORM 04</title>
+	<meta charset="utf-8">
+	<!-- Chèn liên kết tập tin CSS vào đây -->
+	<!-- Chèn liên kết các tập tin JavaScripts vào đây -->
+</head>
+
+<body>
+	<form action="#" method="#">
+		<table border="" width="">
+			<!-- Chèn nội dung FORM vào đây -->
+						<tr>
+				<th colspan = "2">Thông Tin Cá Nhân</th>
+			</tr>
+			<tr>
+				<td>Họ và Tên</td>
+				<td><input type = "text" name ="HoTen"></td>
+			</tr>
+			<tr>
+				<td>Ngày sinh</td>
+				<td><input type = "text" name ="NgaySinh"></td>
+			</tr>
+			<tr>
+				<td>Giới tính</td>
+				<td><input type = "text" name ="GioiTinh"></td>
+			</tr>
+			<tr>
+				<td>Nghề nghiệp</td>
+				<td><input type = "text" name ="NgheNghiep"></td>
+			</tr>
+			<tr>
+				<td>Ghi chú</td>
+				<td><input type = "text" name ="GhiChu"></td>
+				<td>
+					<button onclick = "return KiemTra()">Đăng ký</button>
+					<button type = "reset">Xóa làm lại </button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

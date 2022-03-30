@@ -1,0 +1,29 @@
+function KiemTra()
+{
+	var hoten = f.HoTen.value;
+	var diachi = f.DiaChi.value;
+	var email = f.Email.value;
+	var dienthoai = f.DienThoai.value;
+	if(hoten == '')
+	{
+		alert('Họ tên không được bỏ trống!');
+		return false;
+	}
+	if(ngaysinh == '')
+	{
+		alert('Ngày sinh không được bỏ trống!');
+		return false;
+	}
+		if(gioitinh == '')
+	{
+		alert('Giới tính không được bỏ trống!');
+		return false;
+	}
+		if(nghenghiep == '')
+	{
+		alert('Nghề nghiệp không được bỏ trống!');
+		return false;
+	}
+		
+	return true;
+}
